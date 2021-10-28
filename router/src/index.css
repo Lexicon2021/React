@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+
+body {
+  font-family: 'Georama', sans-serif;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav .link {
+  margin-right: 3.4rem;
+  text-decoration: none;
+}
+
+/* Home page */
+
+
+#homepage header {
+  text-align: center;
+}
+
+#homepage .main-content {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#homepage .main-content img {
+  max-width: 100px;
+  height: 100px;
+}
+
+/* About Page */
+
+#about-page h1 {
+  text-align: center;
+}
